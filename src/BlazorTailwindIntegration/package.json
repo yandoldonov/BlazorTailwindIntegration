@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "buildcss": "npx @tailwindcss/cli -i ./wwwroot/css/tailwind-server-source.css -o ./wwwroot/css/tailwind-server.min.css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "@tailwindcss/forms": "^0.5.10",
+    "tailwindcss": "^4.0.6"
+  }
+}

@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="npm install @tailwindcss/forms" />
+		<Exec Command="npm run buildcss" />
+	</Target>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
