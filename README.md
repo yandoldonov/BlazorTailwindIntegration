@@ -1,0 +1,1 @@
+This is a basic Blazor WebAssembly project in its default template with minimal steps to attempt to integrate Tailwind 4.0. This repo exists to be used as a reference in discussions on the topic of Tailwind 4.0 integration with Blazor.
